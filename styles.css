@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+    
+}
+
+.titulo-destaque {
+    color:#40A2D8
+}
+
+.apresentacao {
+    margin: 10% 20% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo{
+    width: 615px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo{
+    font-size:20px;
+    font-family: "Krona One", sans-serif;
+
+}
+
+.paragrafo{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+
+.botao__aparencia{
+    background-color: #40A2D8;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 19px;
+    padding: 10px 20px;
+    text-decoration:none;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}  
+
+.foto{
+    border-radius:10px;
+}
