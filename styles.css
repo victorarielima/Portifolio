@@ -77,9 +77,25 @@ img{
     color: #F6F6F6;
     font-family: "Montserrat", sans-serif;
     border: #40A2D8 2px solid;
+    transition: 0.3s;
     
 }  
 
+.botao__aparencia:hover{
+    transform:scale(1.06);
+}
+
 i{
     color:#40A2D8 ;
+}
+
+.rodape{
+    background-color:#40A2D8;
+    color: #F6F6F6;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"krona One", sans-serif;
+    
 }
