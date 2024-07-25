@@ -8,7 +8,6 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -24,7 +23,7 @@ img{
 }
 
 .apresentacao {
-    margin: 10% 15% ;
+    padding: 5% 15%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -75,7 +74,7 @@ img{
     padding: 21.5px 0px;
     text-decoration:none;
     color: #F6F6F6;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;  
     border: #40A2D8 2px solid;
     transition: 0.3s;
     
@@ -92,10 +91,28 @@ i{
 .rodape{
     background-color:#40A2D8;
     color: #F6F6F6;
-    height: 100px;
-    display: flex;
-    align-items: center;
+    padding: 20px;
     justify-content: center;
-    font-family:"krona One", sans-serif;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight:400;
     
+}
+
+.cabecalho{
+    margin:2% 0 0 15%;
+}
+
+.navegacao{
+    display: flex;
+    gap: 80px;
+}
+
+.conteudo_nav{
+    color: #40A2D8;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
 }
