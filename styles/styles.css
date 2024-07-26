@@ -14,12 +14,11 @@ body {
 }
 
 img{
-    border-radius:10px;
-    border: #40A2D8 solid 1,2px;
+    margin-left:8%;
 }
 
 .titulo-destaque {
-    color:#40A2D8
+    color:#dbf301
 }
 
 .apresentacao {
@@ -75,7 +74,7 @@ img{
     text-decoration:none;
     color: #F6F6F6;
     font-family: "Montserrat", sans-serif;  
-    border: #40A2D8 2px solid;
+    border: #dbf301 2px solid;
     transition: 0.3s;
     
 }  
@@ -85,11 +84,11 @@ img{
 }
 
 i{
-    color:#40A2D8 ;
+    color:#dbf301 ;
 }
 
 .rodape{
-    background-color:#40A2D8;
+    background-color:#87c159;
     color: #F6F6F6;
     padding: 20px;
     justify-content: center;
@@ -110,7 +109,7 @@ i{
 }
 
 .conteudo_nav{
-    color: #40A2D8;
+    color: #dbf301;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
